@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+    <img id="logo-header" class="logo" src="logo.png" width="100" align="right" >
+    <h1 class="titulo" align="center">Feedback da Fábrica de Software</h1>
+    <p class="cabecalho" align="center">Adoríamos saber da sua experiência da fabrica, sinta-se à vontade para compartilhar suas ideias para melhorar a fábrica.</p>
+    <p class="cabecalho">Digite seus dados</p>
+        </header>
+    <main>
+        <div>
+            <form>
+                <label>Nome</label>
+                <br>
+                <input type="text" placeholder="Digite seu Nome" class="dados">
+                <br>
+                <label>Sobrenome</label>
+                <br>
+                <input type="text" placeholder="Digite seu Nome" class="dados">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="text" placeholder="Digite seu email" class="dados">
+            </form>
+        </div>
+        <div>
+            <form>
+                <label> Como você avalia as reuniões da fábrica</label>
+                <br>
+                <input type="radio" id="Exelentes" name="opcao" value="Exelentes">
+                <label for="Exelentes">Exelentes</label>
+            </form>
+        </div>
+        <div>
+        <form>
+            <br>
+            <input type="radio" id="boa" name="opcao" value="Boas">
+            <label for="Boas">Boas</label>
+        </form>
+        </div>
+        <div>
+    <form>
+        <br>
+        <input type="radio" id="Melhorar" name="opcao" value="Melhorar">
+        <label for="Melhorar">Podem melhorar</label>
+    </form>
+        </div>
+        <div>
+            <br>
+            <input type="radio" id="ruim" name="opcao" value="ruim">
+            <label for="ruim">Ruins</label>
+        </div>
+    </main>
+    <footer>
+        <p>Sugestões</p>
+        <textarea name="Sugestoes" id="" cols="30" rows="10"></textarea>
+
+    </footer> 
+</body>
+</html>
